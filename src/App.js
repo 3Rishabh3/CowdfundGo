@@ -96,11 +96,11 @@ const App = () => {
         <button
           onClick={() => {
             createRequest(
-              "sports",
-              "cricket",
+              "Education",
+              "Manit",
               "0x024cd4b48E97ddb9B2C6aD3444B9181183Ac0d07",
               1000000,
-              Web3.utils.toWei("1", "ether")
+              Web3.utils.toWei("5", "ether")
             );
           }}
         >
@@ -109,7 +109,7 @@ const App = () => {
 
         <button
           onClick={() => {
-            sendETH(3, Web3.utils.toWei("1", "ether"));
+            sendETH(4, Web3.utils.toWei("5", "ether"));
           }}
         >
           send eth
@@ -117,7 +117,7 @@ const App = () => {
 
         <button
           onClick={() => {
-            makePayment(3);
+            makePayment(4);
           }}
         >
           make Payment
